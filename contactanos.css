@@ -1,0 +1,145 @@
+body{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    background-color: #fbff00;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu img{
+    border-radius: 30px;
+    height: 50px;
+}
+
+/* Este css es el CONTACTANOS*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #f6ff00;
+    color: #000000;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #000000;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form{
+    background: #ffffff;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label{
+    display: block;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #000000 ;
+}
+
+.contact-form form button {
+    background: #fbff00 ;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #000000 ;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info{
+    background: rgb(0, 4, 255);
+}
+
+.contact-info h4, .contact-info ul, .contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px){
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
