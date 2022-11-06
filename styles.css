@@ -1,8 +1,10 @@
 body{  
     margin: 0;
     padding: 0;
-    background-color: #fff;
     font-family: sans-serif;
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header{
@@ -43,7 +45,29 @@ input.src{
 
 input.src:hover{
     width: 180px;
-    background-color: #fff;
+    background: #fff;
     border-color: #f8e800;
     box-shadow: 0 0 5px #6dcff680;
+}
+
+.container__map{
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate( -60%, -47%);
+}
+
+.map{
+    font-size: 18px;
+    border-radius: 100px;
+    width: 80px;
+    height: 30px;
+}
+.map:hover{
+    
+    font-size: 25px;
+    width: 180px;
+    height: 100px;
+    box-shadow: 0 0 10px #f8e800;
+    
 }
