@@ -1,0 +1,68 @@
+body{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #dee200;
+    background-size: 100%;
+}
+
+header{
+    background-color: #fbff00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu img{
+    border-radius: 30px;
+    height: 50px;
+}
+
+#container__login{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+}
+
+#input__account{
+    width: 150px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: none;
+    
+}
+
+#input__account:hover{
+    width: 250px;
+    height: 20px;
+    border-color: #000;
+}
+
+#input__password{
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+#input__password:hover{
+    width: 250px;
+    height: 20px;
+    border-color: #000;
+}
+
+
+
+.block button{
+    border-radius: 20%;
+    background-color: #fbff00;
+}
+
+#sign__in{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
