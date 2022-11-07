@@ -57,6 +57,12 @@ input.src:hover{
     transform: translate( -60%, -47%);
 }
 
+.nav__link{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: none;
+}
+
 .map{
     font-size: 18px;
     border-radius: 100px;
