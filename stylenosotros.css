@@ -21,6 +21,12 @@ header{
     height: 50px;
 }
 
+.nav__link{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: none;
+}
+
 /* CODIGO SOBRENOSOTROS */ 
 body {
     font-family: Arial, Helvetica, sans-serif;
