@@ -23,6 +23,12 @@ header{
     height: 50px;
 }
 
+.nav__link{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: none;
+}
+
 /* Este css es el CONTACTANOS*/
 
 * {
